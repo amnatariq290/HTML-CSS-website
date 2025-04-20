@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velocity Garage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      height: 100vh;
+      background: url('https://www.wsupercars.com/wallpapers-regular/Genesis/2025-Genesis-X-Gran-Coupe-and-Convertible-Concept-003-2000.jpg') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    header h1 {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      font-size: 3rem;
+      border: 2px solid #fff;
+    }
+
+    nav {
+      background-color: #000;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      max-width: 100%;
+      width: 350px;
+      height: auto;
+      border: 2px solid #444;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #000;
+      color: #999;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header id="home">
+    <h1>VELOCITY GARAGE</h1>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Velocity Garage</h2>
+    <p>Welcome to Velocity Garage — a tribute to automotive power, performance, and design. Our collection features some of the most iconic concept cars from the future, showcasing speed, elegance, and innovation.</p>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://www.wsupercars.com/wallpapers-regular/Genesis/2025-Genesis-X-Gran-Coupe-and-Convertible-Concept-003-2000.jpg" alt="Genesis X Gran Coupe 1">
+      <img src="https://www.wsupercars.com/wallpapers-regular/Genesis/2025-Genesis-X-Gran-Coupe-and-Convertible-Concept-006-2000.jpg" alt="Genesis X Gran Coupe 2">
+      <img src="https://www.wsupercars.com/wallpapers-regular/Chevrolet/2025-Chevrolet-Corvette-UK-Concept-002-2000.jpg" alt="Chevrolet Corvette Concept">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>For collaborations or inquiries, email us at <a href="mailto:info@velocitygarage.com" style="color: #00ffff; text-decoration: none;">info@velocitygarage.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Velocity Garage. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
